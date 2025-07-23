@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saviour Jachan - Creative Digital Designer</title>
+    <!-- Google Fonts (Inter) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Remixicon for icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <!-- Your main stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="main-nav">
+            <div class="nav-container">
+                <div class="nav-links">
+                    <a href="#hero" class="nav__link active">Home</a> <!-- Added active class example -->
+                    <a href="#projects" class="nav__link">Projects</a>
+                    <a href="#about" class="nav__link">About</a>
+                    <a href="#contact" class="nav__link">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section container" id="hero"> <!-- Added container class -->
+            <img src="Saviour.jpg" alt="Saviour Jachan" class="profile-pic">
+            <h1>Hi, I'm Saviour Jachan</h1>
+            <p class="title">Creative Digital Designer<br>based in Uganda</p>
+            <a href="#contact" class="button primary">Let's Talk</a> <!-- Changed to <a> tag for accessibility -->
+        </section>
+
+        <!-- Placeholder div for testing scroll - you can remove this -->
+        <!-- <div style="height: 500px; background: linear-gradient(white, #f0f0f0); display: flex; align-items: center; justify-content: center;">Scroll down</div> -->
+
+        <section class="projects-section container" id="projects">
+            <div class="section-header">
+                <span class="tag">My Projects</span>
+                <h2>Showcasing My Work</h2>
+                <p>Here are some of the projects I've built, demonstrating my skills in HTML, CSS and JavaScript. Each project is hosted on GitHub.</p>
+            </div>
+
+            <div class="projects-grid">
+                <div class="projects-card">
+                    <img src="daniel-menakhovsky-zqyk7S_FoGA-unsplash.jpg" alt="E-commerce Product Page" class="project-image">
+                    <h3>E-commerce Product Page</h3>
+                    <p>A responsive product page built with HTML, CSS, and vanilla JavaScript, featuring a dynamic image gallery and add-to-cart functionality.</p>
+                    <div class="projects-links">
+                        <a href="https://github.com/karanjafredrick" target="_blank" rel="noopener noreferrer" class="button outline">
+                            <i class="ri-github-line"></i> Github
+                        </a>
+                        <a href="#" target="_blank" rel="noopener noreferrer" class="button primary">
+                            <i class="ri-share-box-fill"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+
+                <div class="projects-card">
+                    <img src="ilgmyzin-aHodrSBMYZA-unsplash.jpg" alt="Coffee Haven Landing Page" class="project-image">
+                    <h3>Coffee Haven Landing Page</h3>
+                    <p>A modern, visually rich homepage for a specialty coffee brand—featuring smooth scroll, parallax effects, and glassmorphic UI that highlights seasonal brews and roastery stories.</p>
+                    <div class="projects-links">
+                        <a href="https://github.com/karanjafredrick" target="_blank" rel="noopener noreferrer" class="button outline">
+                            <i class="ri-github-line"></i> Github
+                        </a>
+                        <a href="#" target="_blank" rel="noopener noreferrer" class="button primary">
+                            <i class="ri-share-box-fill"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+
+                <div class="projects-card">
+                    <img src="milad-fakurian-DjjaZybYx4I-unsplash.jpg" alt="BrewCart E-Commerce Site" class="project-image">
+                    <h3>BrewCart E-Commerce Site</h3>
+                    <p>A responsive online store for artisan coffee, built with HTML, CSS, and JavaScript. Includes a dynamic product grid, cart functionality, and filter options by roast level and origin.</p>
+                    <div class="projects-links">
+                        <a href="https://github.com/karanjafredrick" target="_blank" rel="noopener noreferrer" class="button outline">
+                            <i class="ri-github-line"></i> Github
+                        </a>
+                        <a href="#" target="_blank" rel="noopener noreferrer" class="button primary">
+                            <i class="ri-share-box-fill"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section container" id="about">
+            <div class="section-header">
+                <span class="tag">About Me</span>
+                <h2>A Passion for Web Development</h2>
+                <p>I'm a self-taught web developer with a strong foundation in front-end technologies. My journey into coding began with a fascination for how websites are built, leading me to dive deep into HTML, CSS and JavaScript. I thrive on solving problems and creating intuitive user interfaces.</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <i class="ri-code-line"></i>
+                    <h3>HTML & JavaScript</h3>
+                    <p>Building semantic structures and dynamic interactions.</p>
+                </div>
+
+                <div class="skill-item">
+                    <i class="ri-palette-line"></i>
+                    <h3>CSS & Responsive Design</h3>
+                    <p>Crafting beautiful and responsive layouts for all devices.</p>
+                </div>
+
+                <div class="skill-item">
+                    <i class="ri-git-branch-line"></i>
+                    <h3>Github & Version Control</h3>
+                    <p>Collaborating and managing code effectively using Git.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section container" id="contact">
+            <div class="section-header">
+                <span class="tag">Contact Me</span>
+                <h2>Let's Connect</h2>
+                <p>Have a project in mind or just want to say hello? Feel free to reach out!</p>
+            </div>
+
+            <div class="contact-form-container">
+                <form action="#" class="contact-form"> <!-- Action should point to your form handler -->
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" placeholder="your@example.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" placeholder="Your message..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="button primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Saviour Jachan. All rights reserved.</p>
+        <nav class="footer-nav">
+            <a href="https://github.com/saviourjachan" target="_blank" rel="noopener noreferrer">
+                <i class="ri-github-line"></i> Github
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+                <i class="ri-linkedin-box-line"></i> LinkedIn
+            </a>
+        </nav>
+    </footer>
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
