@@ -32,12 +32,11 @@ const scrollActive = () => {
 };
 window.addEventListener('scroll', scrollActive);
 
-// Initial call to set active link on page load
+
 scrollActive();
 
 
-// --- 3. Smooth Scroll for Navigation Links (if not handled by scroll-behavior: smooth;) ---
-// If you want a custom smooth scroll or if CSS scroll-behavior isn't enough, you can add this:
+
 document.querySelectorAll('.nav-links a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -48,7 +47,7 @@ document.querySelectorAll('.nav-links a[href^="#"]').forEach(anchor => {
     });
 });
 
-// For the "Let's Talk" button
+
 document.querySelector('.hero-section .button.primary').addEventListener('click', function (e) {
     e.preventDefault();
     document.querySelector(this.getAttribute('href')).scrollIntoView({
